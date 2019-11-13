@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bus Ticketing</string>
+
+    //Registration
+    <string name="hint_email">Email</string>
+    <string name="hint_firstname">Firstname</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_repassword">Re-enter Password</string>
+
+    //Options
+    <string name="bus_information">Bus Information</string>
+    <string name="bus_routes">Bus Routes</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Log Out</string>
+    <string name="exit">Exit</string>
+
+</resources>

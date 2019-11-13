@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusInformationActivity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:fillColor="#FFFFFFFF"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text=" Augmentation Bus Service Routes"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toril Route "
+        android:textColor="@color/colorGreen"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route description:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Starting from Toril, turn right to Davao-Cotabato Road, via Ulas, via Bangkal, through MacArthur Highway, through Quirino Avenue, turn right to C. Bangoy St., turn left to Roxas Avenue, turn right Quezon Boulevard through Quimpo Boulevard, turn left to MacArthur Highway, via Matina Crossing, via Bangkal, via Ulas, via Puan, then back to Toril"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus stops: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorGreen"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Toril "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="to "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/errorColor"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Roxas Ave. "/>
+
+
+    </LinearLayout>
+
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text=" • Toril District Hall \n • Corner IWHA McArthur Highway \n • Gulfview (Gas Station) \n • Ulas Shell \n • UM Matina – Overpass \n • Roxas Avenue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus stops: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/errorColor"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Roxas Ave. "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="going back to "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorGreen"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Toril"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="• Toril District Hall \n • Corner IWHA McArthur Highway \n • Gulfview (Gas Station) \n • Ulas Shell \n • UM Matina – Overpass \n • Roxas Avenue"
+        />
+
+    <TextView
+        android:layout_marginTop="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catalunan Grande Route"
+        android:textColor="@color/colorCatalunan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route description:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Starting from corner Elenita-Catalunan Grande, through Catalunan Grande Road, turn left to MacArthur Highway, turn right to Quimpo Boulevard, through Quezon Boulevard, turn left to Roxas Avenue, turn right to C. Bangoy St., turn left to Quirino Avenue, through MacArthur Highway, turn right to Petron, through Catalunan Grande Road, then back to Santiago Villas (corner Elenita-Catalunan)"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus stops: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorCatalunan"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Catalunan Grande "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="to "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/errorColor"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Roxas Ave."/>
+
+        </LinearLayout>
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="• Elenita Heights \n• Santiago Villas \n• Sitio Awa\n• Catalunan Grande Barangay Hall\n• Phoenix Gas Station\n• Matina GSIS\n• SM Ecoland\n• Brgy. Hall Almendras\n• Roxas Avenue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus stops: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/errorColor"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Roxas Ave. "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="going back to "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorCatalunan"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Catalunan Grande"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="• Roxas Avenue\n• Bankerohan (Mercury Drug)\n• Malayan College\n• Bangkal near Petron / Collado\n• San Isidro Labrador Church\n• Catalunan Grande Barangay Hall\n• Sitio Awa\n• Santiago Villas\n• Elenita Heights"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

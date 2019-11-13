@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/sub7Day"
+            android:text="7Days Subscription"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv7Days"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/sub15Day"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="15Days Subscription"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv15Days"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/sub30Day"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="30Days Subscription"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv30Days"
+          />
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to:
+            \n 1.) If user does not have an account, he/she may need to create an account to proceed."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.) If email is not taken and details are filled up properly, the user will then be able to proceed to payment."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.) The user must input valid credentials."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.) The payment amount will be based upon the user's subscription choice."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 4.) After the payment is successful ticket will be available and the user will need to log in to view ticket."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.) If the user decided to log in, he/she will be able to see his/her ticket that can be updated."/>
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.) Everytime you will board a bus, just present the digital ticket or a screenshot of your ticket along with your valid id and you will be able to ride without hassle. \n  \n \n \n \n"/>
+
+
+
+</LinearLayout>

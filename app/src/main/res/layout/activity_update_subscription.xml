@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSubscriptionActivity"
+    android:gravity="center"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:fillColor="#FFFFFFFF"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="7Days Subscription"
+                android:layout_gravity="center"
+                android:id="@+id/btn7Day"
+                />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tv7Days"
+              />
+
+        </LinearLayout>>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="15Days Subscription"
+                android:layout_gravity="center"
+                android:id="@+id/btn15Day"
+                />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tv15Days"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="30Days Subscription"
+                android:layout_gravity="center"
+                android:id="@+id/btn30Day"
+                />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/tv30Days"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note:
+            \n1.) Services will not be available to users with expired Ticket."/>
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.) Users will be able to update ticket validity as long as they have internet connection"/>
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.) When updating ticket, it will not stack.\n ex. March 1, 2019. ticket is updated for 7Days ticket validity will be until March 8, 2019. when updating again for 7Days, validity will still be until March 8."/>
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.) The payment amount will be based upon the user's subscription choice."/>
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.) After the payment is successful a new ticket will be generated and services will be available again."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\n"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

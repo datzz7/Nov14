@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/Bus_Information"
+        android:title="@string/bus_information"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/about_us"
+        android:title="@string/about_us"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/Logout"
+        android:title="@string/logout"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/Exit"
+        android:title="@string/exit"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

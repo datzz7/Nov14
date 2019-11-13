@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserHomeActivity"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivQrcode"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/ivProfile"
+                android:layout_gravity="center"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvId"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_below="@+id/tvId"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvEmail"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_below="@+id/tvEmail"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvFullname"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tvFullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubno"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tvSubno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvDateSubscribed"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:id="@+id/layoutValidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/tvDateSubscribed">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvValidityUntil"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                      />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvValidity"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStatus"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:background="@drawable/edittextstyle"
+                android:layout_gravity="center"
+                android:id="@+id/btnUpdate"/>
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

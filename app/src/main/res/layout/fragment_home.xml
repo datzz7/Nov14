@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In response to the increasing demand for more public transportation options during peak hours in Davao City, the Land Transportation Franchising and Regulatory Board (LTFRB) approved the Peak Hours Augmentation Bus Service (PHABS) in Toril and Catalunan Grande."
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvTexth"
+        android:layout_below="@id/tvHome"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="The initiative came from a series of meetings by the Davao City Transportation and Traffic Planning Committee to address the lack of public utility vehicles (PUVs) in selected Davao City areas during morning and evening peak hours."
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_below="@+id/tvTexth"
+        android:padding="15dp"
+        android:src="@drawable/davao_augmented_bus" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n\n"/>
+
+</RelativeLayout>
